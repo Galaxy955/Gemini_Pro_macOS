@@ -1,42 +1,43 @@
 # Gemini Pro for macOS
 
-This is a simple Python script powered by Google Gemini Pro API. You can have a conversation with Google Gemini Pro on your Mac through this script.
+This is a simple Python application powered by Google Gemini Pro API. You can have a conversation with Google Gemini Pro on your Mac through this app.
 
-<img src="./res/Gemini_logo.jpg" style="zoom: 50%;" >
+<img src="./res/Gemini_logo.jpg" style="zoom: 40%;" >
 
 ## Some prepares before using
 
 ### Google API Key
 
-You should have your Google API Key before using. The script will ask your Google API Key for the first time. **Your Google API Key will only be saved on your own device.**
+You should have your own Google API Key before using. The app will ask your Google API Key for the first time. **Your Google API Key will only be saved on your own device.**
 
-<img src="./res/ask_google_api_key.jpg">
+<img src="/Users/lyx/Downloads/Gemini_Pro_macOS/res/register_google_api_key.png" alt="image-20231219213400456" style="zoom:50%;" />
 
 #### How to get your own Google API Key?
 
 1. Open the website provided by Google: [ai.google.dev]("https://ai.google.dev/")
 2. Clike the "Get API Key in Google AI Studio".
-   <img src="./res/get_api_key_button.jpg" style="zoom: 33%;" >
+   <img src="./res/get_api_key_button.png" style="zoom: 33%;" >
 
 3. Get and copy your own Google API Key.
    <img src="./res/get_api_key.jpg">
 
-### A necessary package
+### Necessary packages
 
-You should install **google-generativeai** before running this script. You can install it by **pip install -r requirements.txt** or **pip install google-generativeai**
+- tkinter
+- mistune
+- google-generativeai
 
-### Typora (recommended but not necessary)
+You can install these necessary packages by using **"pip install <package_names>"** or **"pip install -r requirements.txt"**.
 
-To get the best experience, you can install Typora to display the responses from Gemini Pro. If Typora is available on your Mac, the script will run Typora automatically at the beginning of the dialogue between you and Gemini Pro.
+## Quick Start
 
-**Typora is not necessary, you can also choose other apps which support Markdown to display the responses.**
+### Start the application by Python
 
-**If you can develop Markdown parser or UI for this script, please contact me (2659029033@qq.com).**
+```zsh
+cd <Project_Path>
+python main.py
+```
 
-## Quick start
+### Demo
 
-1. Open the **Terminal** on your Mac.
-2. Enter the project by **cd \<The project path\>**.
-3. Use **python main.py** to run this script.
-
-<img src="./res/Gemini_Pro_demo.gif">
+<img src="./res/Gemini_Pro_Demo.gif">
