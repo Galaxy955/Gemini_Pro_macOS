@@ -10,7 +10,7 @@ This is a simple Python application powered by Google Gemini Pro API. You can ha
 
 You should have your own Google API Key before using. The app will ask your Google API Key for the first time. **Your Google API Key will only be saved on your own device.**
 
-<img src="/Users/lyx/Downloads/Gemini_Pro_macOS/res/register_google_api_key.png" alt="image-20231219213400456" style="zoom:50%;" />
+<img src="./res/register_google_api_key.png" alt="image-20231219213400456" style="zoom:50%;" />
 
 #### How to get your own Google API Key?
 
@@ -37,7 +37,3 @@ You can install these necessary packages by using **"pip install <package_names>
 cd <Project_Path>
 python main.py
 ```
-
-### Demo
-
-<img src="./res/Gemini_Pro_Demo.gif">
